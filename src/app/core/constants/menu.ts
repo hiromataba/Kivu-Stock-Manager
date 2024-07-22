@@ -45,18 +45,18 @@ export class Menu {
         {
           icon: 'assets/icons/heroicons/outline/download.svg',
           label: 'Products',
-          route: '/download',
+          route: '/dashboard/products',
         },
-        {
-          icon: 'assets/icons/heroicons/outline/gift.svg',
-          label: 'Orders',
-          route: '/gift',
-        },
-        {
-          icon: 'assets/icons/heroicons/outline/users.svg',
-          label: 'Users',
-          route: '/users',
-        },
+        // {
+        //   icon: 'assets/icons/heroicons/outline/gift.svg',
+        //   label: 'Orders',
+        //   route: '/gift',
+        // },
+        // {
+        //   icon: 'assets/icons/heroicons/outline/users.svg',
+        //   label: 'Users',
+        //   route: '/users',
+        // },
       ],
     },
     {
