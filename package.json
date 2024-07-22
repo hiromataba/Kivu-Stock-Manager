@@ -1,12 +1,12 @@
 {
-  "name": "Kivu Stock Manager",
+  "name": "Kivu-Stock-Manager",
   "displayName": "Kivu Stock Manager",
   "version": "0.7.0",
   "description": "Angular & Tailwind CSS Admin Dashboard Starter Kit, Free and Open Source",
-  "homepage": "https://github.com/lannodev/Kivu Stock Manager#readme",
+  "homepage": "https://github.com/hiromataba/Kivu-Stock-Manager/Kivu Stock Manager#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lannodev/Kivu Stock Manager.git"
+    "url": "git+https://github.com/hiromataba/Kivu-Stock-Manager/Kivu Stock Manager.git"
   },
   "keywords": [
     "angular",

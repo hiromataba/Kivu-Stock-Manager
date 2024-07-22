@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Kivu Stock Manager": {
+    "Kivu-Stock-Manager": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -77,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Kivu Stock Manager:build:production"
+              "buildTarget": "Kivu-Stock-Manager:build:production"
             },
             "development": {
-              "buildTarget": "Kivu Stock Manager:build:development"
+              "buildTarget": "Kivu-Stock-Manager:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Kivu Stock Manager:build"
+            "buildTarget": "Kivu-Stock-Manager:build"
           }
         },
         "test": {
