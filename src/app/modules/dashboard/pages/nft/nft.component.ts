@@ -39,7 +39,7 @@ export class NftComponent implements OnInit {
         title: `Men's shoes`,
         price: 548.79,
         last_bid: 0.35,
-        image: './assets/images/homme-shoes.png',
+        image: './assets/images/homme-shoes.jpg',
       },
       {
         id: 34356773,

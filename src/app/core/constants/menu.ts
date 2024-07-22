@@ -11,7 +11,7 @@ export class Menu {
           label: 'Dashboard',
           route: '/dashboard',
           children: [
-            { label: 'Overview', route: '/dashboard/nfts' },
+            { label: 'Overview', route: '/dashboard/overview' },
             // { label: 'Podcast', route: '/dashboard/podcast' },
           ],
         },
