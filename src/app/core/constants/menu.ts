@@ -11,45 +11,45 @@ export class Menu {
           label: 'Dashboard',
           route: '/dashboard',
           children: [
-            { label: 'Nfts', route: '/dashboard/nfts' },
+            { label: 'Overview', route: '/dashboard/nfts' },
             // { label: 'Podcast', route: '/dashboard/podcast' },
           ],
         },
-        {
-          icon: 'assets/icons/heroicons/outline/lock-closed.svg',
-          label: 'Auth',
-          route: '/auth',
-          children: [
-            { label: 'Sign up', route: '/auth/sign-up' },
-            { label: 'Sign in', route: '/auth/sign-in' },
-            { label: 'Forgot Password', route: '/auth/forgot-password' },
-            { label: 'New Password', route: '/auth/new-password' },
-            { label: 'Two Steps', route: '/auth/two-steps' },
-          ],
-        },
-        {
-          icon: 'assets/icons/heroicons/outline/shield-exclamation.svg',
-          label: 'Erros',
-          route: '/errors',
-          children: [
-            { label: '404', route: '/errors/404' },
-            { label: '500', route: '/errors/500' },
-          ],
-        },
+        // {
+        //   icon: 'assets/icons/heroicons/outline/lock-closed.svg',
+        //   label: 'Auth',
+        //   route: '/auth',
+        //   children: [
+        //     { label: 'Sign up', route: '/auth/sign-up' },
+        //     { label: 'Sign in', route: '/auth/sign-in' },
+        //     { label: 'Forgot Password', route: '/auth/forgot-password' },
+        //     { label: 'New Password', route: '/auth/new-password' },
+        //     { label: 'Two Steps', route: '/auth/two-steps' },
+        //   ],
+        // },
+        // {
+        //   icon: 'assets/icons/heroicons/outline/shield-exclamation.svg',
+        //   label: 'Erros',
+        //   route: '/errors',
+        //   children: [
+        //     { label: '404', route: '/errors/404' },
+        //     { label: '500', route: '/errors/500' },
+        //   ],
+        // },
       ],
     },
     {
-      group: 'Collaboration',
+      group: 'Items',
       separator: true,
       items: [
         {
           icon: 'assets/icons/heroicons/outline/download.svg',
-          label: 'Download',
+          label: 'Products',
           route: '/download',
         },
         {
           icon: 'assets/icons/heroicons/outline/gift.svg',
-          label: 'Gift Card',
+          label: 'Orders',
           route: '/gift',
         },
         {
@@ -73,16 +73,16 @@ export class Menu {
           label: 'Notifications',
           route: '/gift',
         },
-        {
-          icon: 'assets/icons/heroicons/outline/folder.svg',
-          label: 'Folders',
-          route: '/folders',
-          children: [
-            { label: 'Current Files', route: '/folders/current-files' },
-            { label: 'Downloads', route: '/folders/download' },
-            { label: 'Trash', route: '/folders/trash' },
-          ],
-        },
+        // {
+        //   icon: 'assets/icons/heroicons/outline/folder.svg',
+        //   label: 'Folders',
+        //   route: '/folders',
+        //   children: [
+        //     { label: 'Current Files', route: '/folders/current-files' },
+        //     { label: 'Downloads', route: '/folders/download' },
+        //     { label: 'Trash', route: '/folders/trash' },
+        //   ],
+        // },
       ],
     },
   ];
